@@ -746,10 +746,10 @@ margin-bottom: 94px;
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.2);
-    transition: visibility,opacity;
-   
-    
+    transition: opacity 250ms var(--timing-function),
+    visibility 250ms var(--timing-function);   
 }
+
 .modal {
     width: 528px;
     height: 581px;
@@ -780,6 +780,5 @@ margin-bottom: 94px;
     visibility: hidden;
     opacity: 0;
     pointer-events:none;
-    
-    
+ 
 }
